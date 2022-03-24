@@ -9,7 +9,17 @@ Ethereum staking decentralization and diversity.
 (this is all aspirational, none of this is implemented yet)
 
 ```
-$ ben-solo-staker --host=aws --consensus-client=lighthouse --execution-client=geth  
+$ ben-solo-staker --host=aws --consensus-client=lighthouse --execution-client=geth
+```
+
+## Development
+
+### Terraform provisioning
+
+```
+terraform init
+terraform plan -var='<TOKEN>'
+terraform apply -var='<TOKEN>'
 ```
 
 ## Maintainers
